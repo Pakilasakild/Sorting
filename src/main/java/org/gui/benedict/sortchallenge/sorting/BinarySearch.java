@@ -17,7 +17,7 @@ public class BinarySearch {
                 return target + " Found at " + (ix+1);
             }
             else if (target < data.get(ix)){
-                high = ix -1;
+                high = ix - 1;
             }
             else {
                 low = ix + 1;
