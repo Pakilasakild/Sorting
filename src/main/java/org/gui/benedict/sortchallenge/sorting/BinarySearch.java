@@ -21,7 +21,7 @@ public class BinarySearch {
             }
             else {
                 low = ix + 1;
-            } // data
+            }
         }
         return "Target not found";
     }
